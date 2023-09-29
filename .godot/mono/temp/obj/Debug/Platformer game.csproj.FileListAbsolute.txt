@@ -1,0 +1,17 @@
+L:\Progs\Godot\Projects\Platformer game\.godot\mono\temp\obj\Debug\Platformer game.csproj.AssemblyReference.cache
+L:\Progs\Godot\Projects\Platformer game\.godot\mono\temp\obj\Debug\Platformer game.GeneratedMSBuildEditorConfig.editorconfig
+L:\Progs\Godot\Projects\Platformer game\.godot\mono\temp\obj\Debug\Platformer game.AssemblyInfoInputs.cache
+L:\Progs\Godot\Projects\Platformer game\.godot\mono\temp\obj\Debug\Platformer game.AssemblyInfo.cs
+L:\Progs\Godot\Projects\Platformer game\.godot\mono\temp\obj\Debug\Platformer game.csproj.CoreCompileInputs.cache
+L:\Progs\Godot\Projects\Platformer game\.godot\mono\temp\bin\Debug\Platformer game.deps.json
+L:\Progs\Godot\Projects\Platformer game\.godot\mono\temp\bin\Debug\Platformer game.runtimeconfig.json
+L:\Progs\Godot\Projects\Platformer game\.godot\mono\temp\bin\Debug\Platformer game.dll
+L:\Progs\Godot\Projects\Platformer game\.godot\mono\temp\bin\Debug\Platformer game.pdb
+L:\Progs\Godot\Projects\Platformer game\.godot\mono\temp\bin\Debug\GodotSharp.dll
+L:\Progs\Godot\Projects\Platformer game\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+L:\Progs\Godot\Projects\Platformer game\.godot\mono\temp\obj\Debug\Platformer game.csproj.CopyComplete
+L:\Progs\Godot\Projects\Platformer game\.godot\mono\temp\obj\Debug\Platformer game.dll
+L:\Progs\Godot\Projects\Platformer game\.godot\mono\temp\obj\Debug\refint\Platformer game.dll
+L:\Progs\Godot\Projects\Platformer game\.godot\mono\temp\obj\Debug\Platformer game.pdb
+L:\Progs\Godot\Projects\Platformer game\.godot\mono\temp\obj\Debug\Platformer game.genruntimeconfig.cache
+L:\Progs\Godot\Projects\Platformer game\.godot\mono\temp\obj\Debug\ref\Platformer game.dll
