@@ -15,3 +15,4 @@ L:\Progs\Godot\Projects\Platformer game\.godot\mono\temp\obj\Debug\refint\Platfo
 L:\Progs\Godot\Projects\Platformer game\.godot\mono\temp\obj\Debug\Platformer game.pdb
 L:\Progs\Godot\Projects\Platformer game\.godot\mono\temp\obj\Debug\Platformer game.genruntimeconfig.cache
 L:\Progs\Godot\Projects\Platformer game\.godot\mono\temp\obj\Debug\ref\Platformer game.dll
+L:\Progs\Godot\Projects\Platformer game\.godot\mono\temp\obj\Debug\Platformer game.sourcelink.json

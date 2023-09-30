@@ -1,5 +1,9 @@
-res://main.cs
+res://Player/Player.tscn
 res://main.tscn
 res://world.tscn
-res://Player/Player.tscn
+res://BG.tscn
+res://main.cs
+res://ParallaxBG.cs
 res://Player/Player.cs
+res://Frog.tscn
+res://Frog.cs

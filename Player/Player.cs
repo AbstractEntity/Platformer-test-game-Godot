@@ -6,6 +6,7 @@ public partial class Player : CharacterBody2D
 	public const float Speed = 300.0f;
 	public const float JumpVelocity = -400.0f;
     AnimationPlayer anim;
+	int jumpCount;
 
 	// Get the gravity from the project settings to be synced with RigidBody nodes.
 	public float gravity = ProjectSettings.GetSetting("physics/2d/default_gravity").AsSingle();
@@ -22,11 +23,14 @@ public partial class Player : CharacterBody2D
 		if (!IsOnFloor())
 			velocity.Y += gravity * (float)delta;
 
+		if (IsOnFloor()) jumpCount = 0;
+
 		// Handle Jump.
-		if (Input.IsActionJustPressed("ui_accept") && IsOnFloor())
+		if (Input.IsActionJustPressed("ui_accept") && jumpCount <2)
 		{
 			velocity.Y = JumpVelocity;
 			anim.Play("Jump");
+			jumpCount++;
         }
 
         // Get the input direction and handle the movement/deceleration.
