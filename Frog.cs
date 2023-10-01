@@ -22,7 +22,7 @@ public partial class Frog : CharacterBody2D
             if (isChasing)
             {
                 GetNode<AnimatedSprite2D>("AnimatedSprite2D").Play("Jump");
-                Node2D body = GetParent().GetNode<Node2D>("Player");
+                Node2D body = GetParent().GetParent().GetNode<Node2D>("Player");
                 Vector2 direction = (body.Position - Position).Normalized();
                 velocity.X = direction.X * speed;
                 if (direction.X > 0)
@@ -57,6 +57,7 @@ public partial class Frog : CharacterBody2D
     {
         if (body.Name == "Player")
         {
+            Game.game.gold += 10;
             Death();
         }
         
@@ -66,7 +67,8 @@ public partial class Frog : CharacterBody2D
     {
         if (body.Name == "Player")
         {
-            Player.player.health -= 10;
+            Game.game.playerHP -= 10;
+            Game.game.gold += 5;
             Death();
         }
     }
@@ -76,6 +78,7 @@ public partial class Frog : CharacterBody2D
         isDead = true;
         GetNode<AnimatedSprite2D>("AnimatedSprite2D").Play("Death");
         await ToSignal(GetNode<AnimatedSprite2D>("AnimatedSprite2D"), "animation_finished");
+        Util.SaveGame();
         QueueFree();
     }
     void _on_player_detection_body_exited(Node2D body)

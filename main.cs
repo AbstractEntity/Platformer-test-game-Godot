@@ -6,8 +6,8 @@ public partial class main : Node2D
 {
     public override void _Ready()
     {
-        Util.util.SaveGame();
-        Util.util.LoadGame();
+        //Util.SaveGame();
+        //Util.LoadGame();
     }
     void _on_exit_pressed()
 	{

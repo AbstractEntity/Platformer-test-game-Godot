@@ -11,6 +11,6 @@ public partial class HP : Label
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
 	public override void _Process(double delta)
 	{
-		Text = "Health: " + (string)GetNode<Node2D>("../../Player").Get("health");
+		Text = "Health: " + Game.game.playerHP;
 	}
 }
