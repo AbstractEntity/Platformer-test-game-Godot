@@ -4,6 +4,11 @@ using System;
 
 public partial class main : Node2D
 {
+    public override void _Ready()
+    {
+        Util.util.SaveGame();
+        Util.util.LoadGame();
+    }
     void _on_exit_pressed()
 	{
 		GetTree().Quit();

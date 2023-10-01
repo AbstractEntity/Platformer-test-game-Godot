@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=3 uid="uid://dmjwo6xxun2vs"]
+[gd_scene load_steps=23 format=3 uid="uid://dmjwo6xxun2vs"]
 
 [ext_resource type="Texture2D" uid="uid://dluj4x0sdsnvv" path="res://Sunny-land-files/Graphical Assets/spritesheets/frog-idle.png" id="1_3180f"]
 [ext_resource type="Script" path="res://Frog.cs" id="1_hv5wi"]
@@ -78,9 +78,9 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_s4lr4")
 }],
-"loop": true,
+"loop": false,
 "name": &"Death",
-"speed": 5.0
+"speed": 10.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -127,10 +127,16 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_nbbjn"]
-size = Vector2(20, 11)
+size = Vector2(16, 11)
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_1mcjg"]
 radius = 81.0247
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_e5wnt"]
+size = Vector2(16, 8)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k884i"]
+size = Vector2(20, 9)
 
 [node name="Frog" type="CharacterBody2D"]
 script = ExtResource("1_hv5wi")
@@ -147,9 +153,24 @@ position = Vector2(0, -5.5)
 shape = SubResource("RectangleShape2D_nbbjn")
 
 [node name="PlayerDetection" type="Area2D" parent="."]
+visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="PlayerDetection"]
 shape = SubResource("CircleShape2D_1mcjg")
 
+[node name="FrogDeath" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="FrogDeath"]
+position = Vector2(0, -8)
+shape = SubResource("RectangleShape2D_e5wnt")
+
+[node name="PlayerCollision" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PlayerCollision"]
+position = Vector2(0, -4.5)
+shape = SubResource("RectangleShape2D_k884i")
+
 [connection signal="body_entered" from="PlayerDetection" to="." method="_on_player_detection_body_entered"]
 [connection signal="body_exited" from="PlayerDetection" to="." method="_on_player_detection_body_exited"]
+[connection signal="body_entered" from="FrogDeath" to="." method="_on_frog_death_body_entered"]
+[connection signal="body_entered" from="PlayerCollision" to="." method="_on_player_collision_body_entered"]

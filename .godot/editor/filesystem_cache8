@@ -1,15 +1,20 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1696071979
-BG.tscn::PackedScene::625122883928411108::1696071713::0::1::::<><>::res://ParallaxBG.cs<>uid://7ty7w1bidyms::::res://Sunny-land-files/Graphical Assets/environment/Background/back.png<>uid://dja8a4gutmty0::::res://Sunny-land-files/Graphical Assets/environment/Background/middle.png
+::res://::1696160185
+BG.tscn::PackedScene::625122883928411108::1696159951::0::1::::<><>::res://ParallaxBG.cs<>uid://7ty7w1bidyms::::res://Sunny-land-files/Graphical Assets/environment/Background/back.png<>uid://dja8a4gutmty0::::res://Sunny-land-files/Graphical Assets/environment/Background/middle.png
+Frog.cs::CSharpScript::-1::1696159750::0::1::::<><>::
+Frog.tscn::PackedScene::8021470014304400912::1696159951::0::1::::<><>::uid://dluj4x0sdsnvv::::res://Sunny-land-files/Graphical Assets/spritesheets/frog-idle.png<>res://Frog.cs<>uid://cegmpi3xm2que::::res://Sunny-land-files/Graphical Assets/spritesheets/frog-jump.png<>uid://5hg1mgq3aya5::::res://Sunny-land-files/Graphical Assets/spritesheets/enemy-deadth.png
+HP.cs::CSharpScript::-1::1696159063::0::1::::<><>::
 icon.svg::CompressedTexture2D::7115028439627093323::1695984645::1695984654::1::::<><>::
 main.cs::CSharpScript::-1::1696009225::0::1::::<><>::
 main.gd::GDScript::-1::1695985583::0::1::::<>Node2D<>::
-main.tscn::PackedScene::3706578425255756513::1696071713::0::1::::<><>::res://main.cs<>uid://i52xhbupvo7u::::res://BG.tscn
+main.tscn::PackedScene::3706578425255756513::1696159951::0::1::::<><>::res://main.cs<>uid://i52xhbupvo7u::::res://BG.tscn
 ParallaxBG.cs::CSharpScript::-1::1696070276::0::1::::<><>::
-world.tscn::PackedScene::8245370587737812714::1696071713::0::1::::<><>::uid://cd7dpyp266qa5::::res://Player/Player.tscn<>uid://i52xhbupvo7u::::res://BG.tscn<>uid://hpf3tncbv6vx::::res://Sunny-land-files/Graphical Assets/environment/tileset.png
-::res://Player/::1696071713
-Player.cs::CSharpScript::-1::1696071621::0::1::::<><>::
-Player.tscn::PackedScene::5049678209318974438::1696071713::0::1::::<><>::res://Player/Player.cs<>uid://c4icn8b6cu7bb::::res://Sunny-land-files/Graphical Assets/spritesheets/player.png
+world.tscn::PackedScene::8245370587737812714::1696159951::0::1::::<><>::uid://cd7dpyp266qa5::::res://Player/Player.tscn<>uid://i52xhbupvo7u::::res://BG.tscn<>uid://hpf3tncbv6vx::::res://Sunny-land-files/Graphical Assets/environment/tileset.png<>uid://dmjwo6xxun2vs::::res://Frog.tscn<>res://HP.cs
+::res://Global/::1696160196
+Global.cs::CSharpScript::-1::1696160196::0::1::::<><>::
+::res://Player/::1696159951
+Player.cs::CSharpScript::-1::1696159947::0::1::::<><>::
+Player.tscn::PackedScene::5049678209318974438::1696159951::0::1::::<><>::res://Player/Player.cs<>uid://c4icn8b6cu7bb::::res://Sunny-land-files/Graphical Assets/spritesheets/player.png
 ::res://sunny-land/::1696011317
 ::res://sunny-land/assets/::1696011317
 ::res://sunny-land/assets/atlas/::1696011317

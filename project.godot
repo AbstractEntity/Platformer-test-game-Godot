@@ -15,6 +15,11 @@ run/main_scene="res://main.tscn"
 config/features=PackedStringArray("4.1", "C#", "Mobile")
 config/icon="res://icon.svg"
 
+[autoload]
+
+Global="*res://Global/Global.cs"
+Util="*res://Global/Util.cs"
+
 [dotnet]
 
 project/assembly_name="Platformer game"

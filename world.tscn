@@ -1,9 +1,10 @@
-[gd_scene load_steps=7 format=3 uid="uid://dpqebwsuv4ci1"]
+[gd_scene load_steps=8 format=3 uid="uid://dpqebwsuv4ci1"]
 
 [ext_resource type="PackedScene" uid="uid://cd7dpyp266qa5" path="res://Player/Player.tscn" id="1_rxad5"]
 [ext_resource type="PackedScene" uid="uid://i52xhbupvo7u" path="res://BG.tscn" id="2_k1boy"]
 [ext_resource type="Texture2D" uid="uid://hpf3tncbv6vx" path="res://Sunny-land-files/Graphical Assets/environment/tileset.png" id="3_mshbn"]
 [ext_resource type="PackedScene" uid="uid://dmjwo6xxun2vs" path="res://Frog.tscn" id="4_fit82"]
+[ext_resource type="Script" path="res://HP.cs" id="5_m2ap8"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_01xyb"]
 texture = ExtResource("3_mshbn")
@@ -429,3 +430,29 @@ position = Vector2(287, 166)
 position = Vector2(409, 137)
 
 [node name="Background" parent="." instance=ExtResource("2_k1boy")]
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="HP" type="Label" parent="UI"]
+offset_left = 63.0
+offset_top = 8.0
+offset_right = 116.0
+offset_bottom = 31.0
+theme_override_font_sizes/font_size = 14
+text = "Health: "
+script = ExtResource("5_m2ap8")
+
+[node name="Frog2" parent="." instance=ExtResource("4_fit82")]
+position = Vector2(567, 174)
+
+[node name="Frog3" parent="." instance=ExtResource("4_fit82")]
+position = Vector2(183, 124)
+
+[node name="Frog4" parent="." instance=ExtResource("4_fit82")]
+position = Vector2(528, 92)
+
+[node name="Frog5" parent="." instance=ExtResource("4_fit82")]
+position = Vector2(153, 183)
+
+[node name="Frog6" parent="." instance=ExtResource("4_fit82")]
+position = Vector2(691, 58)

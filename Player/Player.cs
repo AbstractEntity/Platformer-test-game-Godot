@@ -3,16 +3,23 @@ using System;
 
 public partial class Player : CharacterBody2D
 {
+	public static Player player;
 	public const float Speed = 300.0f;
 	public const float JumpVelocity = -400.0f;
     AnimationPlayer anim;
 	int jumpCount;
+	public int health = 10;
 
 	// Get the gravity from the project settings to be synced with RigidBody nodes.
 	public float gravity = ProjectSettings.GetSetting("physics/2d/default_gravity").AsSingle();
 
 	public override void _Ready()
 	{
+		if (player == null)
+		{
+			player = this;
+		}
+		else QueueFree();
 		anim = GetNode<AnimationPlayer>("AnimationPlayer");
     }
 	public override void _PhysicsProcess(double delta)
@@ -63,5 +70,10 @@ public partial class Player : CharacterBody2D
 
 		Velocity = velocity;
 		MoveAndSlide();
+		if (health <= 0)
+		{
+			QueueFree();
+            GetTree().ChangeSceneToFile("res://main.tscn");
+        }
 	}
 }

@@ -275,7 +275,7 @@ shape = SubResource("CapsuleShape2D_640k0")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(1, -4)
 sprite_frames = SubResource("SpriteFrames_pqhbn")
-animation = &"Idle"
+animation = &"Jump"
 frame = 1
 metadata/_edit_lock_ = true
 
