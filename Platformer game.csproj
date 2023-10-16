@@ -3,5 +3,6 @@
     <TargetFramework>net6.0</TargetFramework>
     <EnableDynamicLoading>true</EnableDynamicLoading>
     <RootNamespace>Platformergame</RootNamespace>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
 </Project>

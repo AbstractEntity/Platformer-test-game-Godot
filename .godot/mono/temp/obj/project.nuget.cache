@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "k+MjAFaTnwBRu1JHzOg7dJjERNKLu4qs/VWv1gXLvA29a79NyIEEbYQL0qJYQ7SshhCKgJb7wztKV+BKdIriqw==",
+  "dgSpecHash": "hmycpAuwn3WQi1WfBt32IGHUVbcvrXAxyQ0wHnJTo3Ww9wvIr2rrkDxuzGw8cvt7ygFSXZjyP8tD6acqD8hE8g==",
   "success": true,
-  "projectFilePath": "L:\\Progs\\Godot\\Projects\\Platformer game\\Platformer game.csproj",
+  "projectFilePath": "V:\\GITHUB\\GODOT\\PLATFORMER-TEST-GAME-GODOT\\Platformer game.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Kori\\.nuget\\packages\\godot.sourcegenerators\\4.1.1\\godot.sourcegenerators.4.1.1.nupkg.sha512",
-    "C:\\Users\\Kori\\.nuget\\packages\\godotsharp\\4.1.1\\godotsharp.4.1.1.nupkg.sha512",
-    "C:\\Users\\Kori\\.nuget\\packages\\godotsharpeditor\\4.1.1\\godotsharpeditor.4.1.1.nupkg.sha512"
+    "C:\\Users\\Ryumi\\.nuget\\packages\\godot.sourcegenerators\\4.1.1\\godot.sourcegenerators.4.1.1.nupkg.sha512",
+    "C:\\Users\\Ryumi\\.nuget\\packages\\godotsharp\\4.1.1\\godotsharp.4.1.1.nupkg.sha512",
+    "C:\\Users\\Ryumi\\.nuget\\packages\\godotsharpeditor\\4.1.1\\godotsharpeditor.4.1.1.nupkg.sha512"
   ],
   "logs": []
 }

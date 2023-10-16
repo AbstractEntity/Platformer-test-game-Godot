@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Platformer game")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef1dddfdf8052867f25e2c7382a6eab4ddc9fc31")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Platformer game")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Platformer game")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

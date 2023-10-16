@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "L:\\Progs\\Godot\\Projects\\Platformer game\\Platformer game.csproj": {}
+    "V:\\GITHUB\\GODOT\\PLATFORMER-TEST-GAME-GODOT\\Platformer game.csproj": {}
   },
   "projects": {
-    "L:\\Progs\\Godot\\Projects\\Platformer game\\Platformer game.csproj": {
+    "V:\\GITHUB\\GODOT\\PLATFORMER-TEST-GAME-GODOT\\Platformer game.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "L:\\Progs\\Godot\\Projects\\Platformer game\\Platformer game.csproj",
+        "projectUniqueName": "V:\\GITHUB\\GODOT\\PLATFORMER-TEST-GAME-GODOT\\Platformer game.csproj",
         "projectName": "Platformer game",
-        "projectPath": "L:\\Progs\\Godot\\Projects\\Platformer game\\Platformer game.csproj",
-        "packagesPath": "C:\\Users\\Kori\\.nuget\\packages\\",
-        "outputPath": "L:\\Progs\\Godot\\Projects\\Platformer game\\.godot\\mono\\temp\\obj\\",
+        "projectPath": "V:\\GITHUB\\GODOT\\PLATFORMER-TEST-GAME-GODOT\\Platformer game.csproj",
+        "packagesPath": "C:\\Users\\Ryumi\\.nuget\\packages\\",
+        "outputPath": "V:\\GITHUB\\GODOT\\PLATFORMER-TEST-GAME-GODOT\\.godot\\mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kori\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ryumi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -69,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.1.23463.5\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
